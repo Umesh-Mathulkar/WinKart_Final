@@ -1,0 +1,41 @@
+.catImg img{
+    height: 100px;
+    padding: 10%;
+}
+.catImg{
+    height: 100px;
+}
+.cardHome{
+    width: 200px;
+    transition-duration: 200ms;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 10px;
+}
+.cardHome h6{
+    color: rgb(85, 85, 85);
+}
+.cardHome:hover{
+    background-color: rgb(245, 245, 245);
+    transform: scale(1.1);
+    transition-duration: 200ms;
+}
+.containers{
+    display: flex;
+}
+
+@media only screen and (max-width:992px) {
+    .containers{
+        display: block;
+    }
+    .cardHome{
+    
+        width: 100%;
+    }
+    .catImg{
+        height: 200px;
+    }
+    .catImg img{
+            height: 200px;        
+    }
+
+}

@@ -1,0 +1,13 @@
+.fa{
+    color: white;
+}
+.nav-link i{
+    font-size: 20px;
+}
+.navbar-brand{
+    color: white;
+    font-size: 30px;
+}
+.navbar-brand:hover{
+    color: gold;
+}

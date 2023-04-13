@@ -1,0 +1,42 @@
+
+.proAligns{
+    display: inline-block;
+}
+
+
+.detailsImg img{
+    width: 100%;
+    padding: 5%;
+}
+.disp{
+    width: 100%;
+}
+.detailsImg{
+    border: 1px solid rgb(209, 209, 209);
+    width: initial;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px grey;
+    display: flex;
+    justify-content: center;
+    
+}
+.detailsMain{
+    margin: 5% 0;
+}
+
+.detailsMain p{
+    color: rgb(138, 138, 138);
+}
+.detailsMain h4{
+    color: rgb(224, 71, 71);
+}
+.detailsInfo{
+    padding: 3%;
+    height: 100%;
+    border-radius: 10px;
+    transition-duration: 300ms;
+}
+.detailsInfo:hover{
+    box-shadow: 1px 1px 10px grey;
+    transition-duration: 300ms;
+}

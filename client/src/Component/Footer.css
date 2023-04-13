@@ -1,0 +1,32 @@
+.footer{
+    background-color:  rgb(171, 200, 255);;
+    height: 30vh;
+    color:rgb(85, 85, 85);
+}
+
+.socialLink{
+    text-align: center;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.foot{
+    width: 100%;
+}
+
+
+@media only screen and (max-width:992px) {
+    .footer{
+        height: 60vh;
+    }
+    .add{
+        margin-top: 10px;
+    }
+    .socialLink{
+        margin-top: 10px;
+    }
+}

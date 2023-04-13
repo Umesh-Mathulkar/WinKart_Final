@@ -1,0 +1,11 @@
+.ser{
+    border: 1px solid rgb(230, 230, 230);
+    margin: 10px;
+    height: 100%;
+    align-items: center;
+    width: 100%;
+}
+
+.serLink{
+  margin-left: 10px;
+}

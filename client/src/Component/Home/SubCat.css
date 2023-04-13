@@ -1,0 +1,55 @@
+.proImg img{
+    height: 100%;
+    padding: 10px;
+}
+.proImg{
+    height: 100px;
+    transition-duration: 400ms;
+}
+.proImg:hover{
+    transform: scale(1.07);
+    transition-duration: 400ms;
+
+}
+.cards{
+    display: inline-block;
+    margin: 0 10px;
+    height: 140px;
+    width: 190px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 10px;
+    background-color: white;
+}
+.cards h6{
+    color: rgb(85, 85, 85);
+}
+.subHead{
+    height: 100%;
+   
+}
+.rows{
+    border: 1px solid rgb(185, 185, 185);
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    border-radius: 8px;
+    padding: 2%;
+    
+}
+.rows:hover{
+    background-color: rgb(243, 243, 243);
+}
+.proAlign{
+    display: inline-block;
+}
+
+
+@media only screen and (max-width:992px){
+    .cards{
+        width: 100%;
+    }
+    .proAlign{
+        display: block;
+    }
+}
